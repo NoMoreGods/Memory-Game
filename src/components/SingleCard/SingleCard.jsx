@@ -1,0 +1,15 @@
+import React from 'react';
+import './SingleCard.css';
+
+const SingleCard = ({ card }) => {
+  return (
+    <div className="card">
+      <div>
+        <img className="front" src={card} alt="card front" />
+        <img className="back" src="/img/cover.png" alt="cover" />
+      </div>
+    </div>
+  );
+};
+
+export default SingleCard;
